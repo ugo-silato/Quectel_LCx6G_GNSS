@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Config.cpp  -  NMEA output configuration for the LC76G
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  Kept in a separate file so that sketches which do not call these
  *  functions do not pay for them in flash (unused code is removed by the

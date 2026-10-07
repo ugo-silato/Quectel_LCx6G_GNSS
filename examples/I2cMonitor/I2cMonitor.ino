@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  I2cMonitor.ino  -  Quectel_LC76G library example
+ *  I2cMonitor.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Same output as BasicMonitor, but the module is read and commanded
  *  through I2C (SDA / SCL) instead of the UART.
@@ -173,7 +173,7 @@ void setup() {
   pinMode(PIN_GNSS_TXD, INPUT);
   pinMode(PIN_GNSS_RXD, INPUT);
   Serial.println();
-  Serial.print(F("=== Quectel_LC76G I2cMonitor v"));
+  Serial.print(F("=== Quectel_LCx6G_GNSS I2cMonitor v"));
   Serial.print(F(QUECTEL_LC76G_VERSION));
   Serial.println(F(" ==="));
 

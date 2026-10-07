@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Geofence.cpp  -  Geofence (virtual fence) for the LC76G
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  A geofence is an area defined by coordinates. The module compares its
  *  position with up to 4 areas and reports, for each one, whether the

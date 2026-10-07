@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  LowPower.ino  -  Quectel_LC76G library example
+ *  LowPower.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Shows the low power modes of the module. Choose ONE with MODE below:
  *    MODE_ALP1     Adaptive Low Power mode 1 (lowest power)
@@ -73,7 +73,7 @@ void setup() {
   pinMode(PIN_GNSS_TXD, INPUT);
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
-  Serial.println(F("=== Quectel_LC76G LowPower ==="));
+  Serial.println(F("=== Quectel_LCx6G_GNSS LowPower ==="));
   // Reference shield rev. 1: control pins go straight to NPN bases, so they
   // are never driven HIGH (see LC76G_DriveMode in src/LC76G.h)
   gnss.setPowerPin(PIN_PWR_EN, LC76G_DRIVE_WEAK_PULLUP_HIGH);

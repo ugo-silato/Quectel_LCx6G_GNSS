@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  JammingDetection.ino  -  Quectel_LC76G library example
+ *  JammingDetection.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Enables jamming detection (interference covering the GNSS signals) and
  *  prints every change of status, from the module message and from the
@@ -66,7 +66,7 @@ void setup() {
   pinMode(PIN_GNSS_TXD, INPUT);
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
-  Serial.println(F("=== Quectel_LC76G JammingDetection ==="));
+  Serial.println(F("=== Quectel_LCx6G_GNSS JammingDetection ==="));
   // Reference shield rev. 1: control pins go straight to NPN bases, so they
   // are never driven HIGH (see LC76G_DriveMode in src/LC76G.h)
   gnss.setPowerPin(PIN_PWR_EN, LC76G_DRIVE_WEAK_PULLUP_HIGH);

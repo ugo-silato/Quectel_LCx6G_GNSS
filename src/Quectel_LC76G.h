@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  Quectel_LC76G.h  -  Main include file of the Quectel_LC76G library
+ *  Quectel_LC76G.h  -  Main include file of the Quectel_LCx6G_GNSS library
  * ============================================================================
  *  Sketches only need:   #include <Quectel_LC76G.h>
  *  For the I2C link add: #include <Wire.h> and #include <LC76G_I2C.h>

@@ -1,0 +1,12 @@
+# KiCad temporary and per-user files (not part of the design)
+*-backups/
+_autosave-*
+*.kicad_prl
+*.lck
+fp-info-cache
+\#auto_saved_files\#
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

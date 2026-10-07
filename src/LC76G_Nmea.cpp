@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Nmea.cpp  -  NMEA 0183 decoder for the Quectel LC76G GNSS module
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  * ============================================================================
  */
 

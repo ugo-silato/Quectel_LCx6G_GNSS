@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  Geofence.ino  -  Quectel_LC76G library example
+ *  Geofence.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Creates a circular geofence (virtual fence) around the position of the
  *  first fix and reports whether the receiver is inside or outside, both
@@ -72,7 +72,7 @@ void setup() {
   pinMode(PIN_GNSS_TXD, INPUT);
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
-  Serial.println(F("=== Quectel_LC76G Geofence ==="));
+  Serial.println(F("=== Quectel_LCx6G_GNSS Geofence ==="));
   // Reference shield rev. 1: control pins go straight to NPN bases, so they
   // are never driven HIGH (see LC76G_DriveMode in src/LC76G.h)
   gnss.setPowerPin(PIN_PWR_EN, LC76G_DRIVE_WEAK_PULLUP_HIGH);

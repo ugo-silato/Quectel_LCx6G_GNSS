@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Reception.cpp  -  Reception settings of the LC76G
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  Commands used (Quectel GNSS Protocol Specification):
  *    PAIR070 / PAIR071  Static navigation threshold

@@ -1,7 +1,13 @@
-# Quectel_LC76G
+# Quectel_LCx6G_GNSS
 
-Arduino library for the **Quectel LC76G** multi-constellation GNSS module
-(GPS, GLONASS, Galileo, BeiDou, QZSS).
+Arduino library for the **Quectel LC26G, LC26G-T, LC76G and LC86G**
+multi-constellation GNSS modules (GPS, GLONASS, Galileo, BeiDou, QZSS),
+which share the same Quectel protocol (PAIR / PQTM commands).
+
+Developed and tested on the **LC76G (PA)**: that is why the classes and
+the main header are called `LC76G` and `Quectel_LC76G.h`. The other
+modules of the family are compatible but not tested, see
+[Compatible modules and limitations](#compatible-modules-and-limitations).
 
 ![LC76G reference shield, revision 1](extras/images/shield_rev1_top.jpg)
 
@@ -10,6 +16,8 @@ Arduino library for the **Quectel LC76G** multi-constellation GNSS module
 > final design**. An improved revision 2 will follow, fixing the issues
 > listed in [Reference shield, revision 1 – known issues](#reference-shield-revision-1--known-issues).
 > The library itself does not depend on this board: any LC76G wiring works.
+> The KiCad 10 files of the shield (schematic, PCB, BOM) are in
+> [hardware](hardware/README.md).
 
 > **Status: 1.0.0.** Every function was tested on the bench with real
 > hardware (LC76G (PA) on Arduino Uno R3 and Uno R4 Minima), except the
@@ -147,7 +155,8 @@ Library limitations, independent of the module:
 
 Download this repository as a ZIP and use *Sketch → Include Library →
 Add .ZIP Library…* in the Arduino IDE, or clone it into your
-`Arduino/libraries` folder.
+`Arduino/libraries` folder. Then `#include <Quectel_LC76G.h>` in your
+sketch.
 
 ## Quick start
 
@@ -329,14 +338,17 @@ The library was developed on a custom Uno shield (KiCad design, passive
 Molex patch antenna, LC76G module, 3.7 V Li-Po supply with LDO and
 switched module rail). **Revision 1 is a test prototype, not a final
 product**: an improved revision 2 will follow. Revision 1 has these known
-issues, to be fixed in revision 2:
+issues, to be fixed in revision 2 (the design files – KiCad 10 project,
+schematic PDF, BOM – are in [hardware](hardware/README.md)):
 
 - The power-enable and reset driver transistors have **no series base
   resistor**: use `LC76G_DRIVE_WEAK_PULLUP_HIGH` on both pins.
 - The I2C lines have **no level shifter** (pull-ups to 3.3 V only):
   I2C is out of specification with 5 V boards on this revision.
-- The LDO footprint pinout does not match the XC6206 regulator.
-- The TVS diodes footprint orientation is reversed.
+- First batch only: the LDO footprint pinout does not match the XC6206
+  regulator (U1 soldered rotated) and the unidirectional TVS diodes D1/D2
+  are reversed. Both are already fixed in the published KiCad files
+  (XC6206 pinout, bidirectional SMF5.0CA diodes).
 - The bases of the power-enable (Q1) and reset (Q4) transistors have **no
   pull-down**: while the Arduino resets or is off, D3 and D6 float. By
   design, when the Arduino is off the module must be off too (Backup
@@ -600,4 +612,5 @@ or an internet connection than the target boards provide.
 
 ## License
 
-MIT – see [LICENSE](LICENSE).
+MIT – see [LICENSE](LICENSE). The license covers both the library and the
+hardware files in `hardware`.

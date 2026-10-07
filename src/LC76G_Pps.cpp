@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Pps.cpp  -  1PPS (One Pulse Per Second) for the LC76G
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  1PPS is a pulse output synchronised to the start of each UTC second.
  *  It is used to discipline clocks or to timestamp events precisely.

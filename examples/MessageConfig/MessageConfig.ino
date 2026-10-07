@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  MessageConfig.ino  -  Quectel_LC76G library example
+ *  MessageConfig.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Shows how to choose which NMEA sentences the module outputs.
  *
@@ -127,7 +127,7 @@ void setup() {
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
   Serial.println();
-  Serial.println(F("=== Quectel_LC76G MessageConfig ==="));
+  Serial.println(F("=== Quectel_LCx6G_GNSS MessageConfig ==="));
 
   gnss.setPowerPin(PIN_PWR_EN, LC76G_DRIVE_WEAK_PULLUP_HIGH);
   gnss.setResetPin(PIN_RESET_DRV, LC76G_DRIVE_WEAK_PULLUP_HIGH);

@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  BasicMonitor.ino  -  Quectel_LC76G library example
+ *  BasicMonitor.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Prints a readable summary once per second (date/time, fix, position,
  *  altitude, satellites) and uses the on-board LED as a status indicator:
@@ -180,7 +180,7 @@ void setup() {
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
   Serial.println();
-  Serial.print(F("=== Quectel_LC76G BasicMonitor v"));
+  Serial.print(F("=== Quectel_LCx6G_GNSS BasicMonitor v"));
   Serial.print(F(QUECTEL_LC76G_VERSION));
   Serial.println(F(" ==="));
 

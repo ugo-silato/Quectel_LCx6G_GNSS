@@ -1369,7 +1369,7 @@ void setup() {
   while (!Serial && millis() < 3000) {
   }
   Serial.println();
-  Serial.print(F("=== Quectel_LC76G ShieldTest v"));
+  Serial.print(F("=== Quectel_LCx6G_GNSS ShieldTest v"));
   Serial.print(F(QUECTEL_LC76G_VERSION));
   Serial.println(F(" ==="));
 

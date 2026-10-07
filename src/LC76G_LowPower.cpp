@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_LowPower.cpp  -  Low power modes of the LC76G
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  Commands used (Quectel GNSS Protocol Specification and Low Power Mode
  *  Application Note):

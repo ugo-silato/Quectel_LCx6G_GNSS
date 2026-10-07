@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Nmea.h  -  NMEA 0183 decoder for the Quectel LC76G GNSS module
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library.
  *
  *  Decodes the standard sentences needed for navigation:
  *    RMC : time, date, fix status, position, speed, course

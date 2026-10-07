@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  Agnss.ino  -  Quectel_LC76G library example
+ *  Agnss.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  AGNSS (Assisted GNSS) without internet. The firmware has EITHER EASY
  *  (Embedded Assist System) OR EPOC (Enhanced Prediction Orbit on Chip):
@@ -65,7 +65,7 @@ void setup() {
   pinMode(PIN_GNSS_TXD, INPUT);
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
-  Serial.println(F("=== Quectel_LC76G Agnss ==="));
+  Serial.println(F("=== Quectel_LCx6G_GNSS Agnss ==="));
   // Reference shield rev. 1: control pins go straight to NPN bases, so they
   // are never driven HIGH (see LC76G_DriveMode in src/LC76G.h)
   gnss.setPowerPin(PIN_PWR_EN, LC76G_DRIVE_WEAK_PULLUP_HIGH);

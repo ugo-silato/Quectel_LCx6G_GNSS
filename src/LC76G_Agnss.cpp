@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Agnss.cpp  -  AGNSS (Assisted GNSS) for the LC76G
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  Commands used (Quectel AGNSS Application Note, Protocol Specification):
  *    PQTMVERNO          Firmware version

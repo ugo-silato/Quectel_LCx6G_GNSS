@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Jamming.cpp  -  Jamming detection for the LC76G
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  Jamming = a radio signal (intentional or accidental) that covers the very
  *  weak GNSS signals. The LC76G can detect it and report it in two ways:

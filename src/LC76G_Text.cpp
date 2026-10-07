@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G_Text.cpp  -  Readable names for results, sentences, constellations
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library. Author: Ugo Silato. License: MIT.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library. Author: Ugo Silato. License: MIT.
  *
  *  All strings are returned with F(), so they stay in flash memory and do
  *  not use the very limited RAM of the Uno R3. They can be printed directly:

@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  Pps.ino  -  Quectel_LC76G library example
+ *  Pps.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Configures the 1PPS (One Pulse Per Second) output and measures the
  *  pulses with an interrupt: count, period, width. Mode "always" pulses
@@ -63,7 +63,7 @@ void setup() {
   pinMode(PIN_GNSS_TXD, INPUT);
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
-  Serial.println(F("=== Quectel_LC76G Pps ==="));
+  Serial.println(F("=== Quectel_LCx6G_GNSS Pps ==="));
   // Reference shield rev. 1: control pins go straight to NPN bases, so they
   // are never driven HIGH (see LC76G_DriveMode in src/LC76G.h)
   gnss.setPowerPin(PIN_PWR_EN, LC76G_DRIVE_WEAK_PULLUP_HIGH);

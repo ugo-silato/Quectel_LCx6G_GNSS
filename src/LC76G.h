@@ -2,7 +2,7 @@
  * ============================================================================
  *  LC76G.h  -  Core driver for the Quectel LC76G GNSS module
  * ============================================================================
- *  Part of the Quectel_LC76G Arduino library.
+ *  Part of the Quectel_LCx6G_GNSS Arduino library.
  *
  *  Responsibilities of the core class:
  *    - Owns the link to the module: any Arduino Stream (HardwareSerial,

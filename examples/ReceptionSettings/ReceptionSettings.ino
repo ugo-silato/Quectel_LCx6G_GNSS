@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- *  ReceptionSettings.ino  -  Quectel_LC76G library example
+ *  ReceptionSettings.ino  -  Quectel_LCx6G_GNSS library example
  * ============================================================================
  *  Reception settings of the module:
  *    elevation mask, AIC (Active Interference Cancellation), SBAS
@@ -192,7 +192,7 @@ void setup() {
   pinMode(PIN_GNSS_RXD, INPUT);
 #endif
   Serial.println();
-  Serial.print(F("=== Quectel_LC76G ReceptionSettings v"));
+  Serial.print(F("=== Quectel_LCx6G_GNSS ReceptionSettings v"));
   Serial.print(F(QUECTEL_LC76G_VERSION));
   Serial.println(F(" ==="));
 
