@@ -22,7 +22,7 @@ KiCad 10 design of the Arduino Uno shield used to develop and test the
 | `rev1/04_Passive_Antenna.kicad_sch` | Molex patch antenna, matching network, optional SAW filter (DNP) |
 | `rev1/Quectel_LC76G.kicad_pcb` | PCB layout |
 | `rev1/Quectel_LC76G_schematic.pdf` | Schematic, all sheets (readable without KiCad) |
-| `rev1/Quectel_LC76G_BOM.csv` | Bill of materials, with LCSC part numbers |
+| `rev1/Quectel_LC76G.csv` | Bill of materials, with LCSC part numbers |
 
 The custom symbols and footprints (LC76G module, Molex antenna, SAW filter)
 are embedded in the schematic and PCB files: the project opens in KiCad 10
