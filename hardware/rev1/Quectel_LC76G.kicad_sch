@@ -1,0 +1,778 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "653008c8-3cd0-40bb-aae1-da11b34124c9")
+	(paper "A5")
+	(lib_symbols)
+	(junction
+		(at 74.93 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0312e4d5-96dd-43b1-9347-f8e5af53a132")
+	)
+	(no_connect
+		(at 71.12 87.63)
+		(uuid "5993b76d-3618-4985-a62f-743fc216c523")
+	)
+	(wire
+		(pts
+			(xy 31.75 78.74) (xy 35.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0186f2bc-134f-42ab-b071-fd6a84bb0ee4")
+	)
+	(wire
+		(pts
+			(xy 31.75 78.74) (xy 31.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08326129-95bb-4a4a-9a2b-b9e448007c86")
+	)
+	(wire
+		(pts
+			(xy 74.93 77.47) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d0cded-2540-4cd8-a391-a6b156ad4c68")
+	)
+	(wire
+		(pts
+			(xy 66.04 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3b0129-ed31-4970-896c-2aa8e2d89eef")
+	)
+	(wire
+		(pts
+			(xy 125.73 35.56) (xy 139.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d9d474-8767-4fae-82e4-05e06f4998dc")
+	)
+	(wire
+		(pts
+			(xy 66.04 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3497b4dd-76ce-4cf8-b0bd-8ec105675c5c")
+	)
+	(wire
+		(pts
+			(xy 21.59 63.5) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34aa3bab-7c19-495e-8243-43488a2c8682")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b267d1-93d4-4d6f-813a-adb175ee12b6")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9ecf75-9f2d-4873-863b-7b989698cab8")
+	)
+	(wire
+		(pts
+			(xy 74.93 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0088c6-6e49-40a0-af2a-b733f655e969")
+	)
+	(wire
+		(pts
+			(xy 35.56 36.83) (xy 21.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5346da3c-61c3-4b83-a7e7-e223e0a6e4ee")
+	)
+	(wire
+		(pts
+			(xy 35.56 44.45) (xy 31.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a07e63d-559b-4412-9557-a7529e1c763e")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 78.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955cc29a-c3cd-4b52-bf6b-780daec60a79")
+	)
+	(wire
+		(pts
+			(xy 66.04 87.63) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ca88f6-1834-47db-89c0-1cc7eca5a37b")
+	)
+	(wire
+		(pts
+			(xy 21.59 63.5) (xy 21.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6406294-fd4c-42b0-b330-7ddc42f58e47")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5610243-5733-4f37-9cb9-52abbb828696")
+	)
+	(wire
+		(pts
+			(xy 66.04 33.02) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b0f2e6-e07d-4a4f-a375-7727c592a492")
+	)
+	(wire
+		(pts
+			(xy 125.73 38.1) (xy 139.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56dc685-fccc-41fc-a469-eca9c1caf59f")
+	)
+	(wire
+		(pts
+			(xy 66.04 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7da1c2b-438c-41ea-899d-b84c7bac1943")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa54af5-ae21-40df-91e3-4f9aa593e40f")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4673fd1-ec7b-49a5-a8d0-ab7489f285a9")
+	)
+	(wire
+		(pts
+			(xy 66.04 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a1801f-6120-4610-b62f-d3d6688f8fe9")
+	)
+	(wire
+		(pts
+			(xy 125.73 33.02) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f608acab-d32d-4ae0-b4c2-b67ee1b9f73f")
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd01db9-52d3-47a2-ab10-58ac16d87000")
+	)
+	(wire
+		(pts
+			(xy 66.04 38.1) (xy 101.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1a4e30-66e2-492c-8cc8-396c57461fc5")
+	)
+	(sheet
+		(at 101.6 24.765)
+		(size 24.13 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "543ed18d-ad5a-43b4-92e4-ad7329e7475f")
+		(property "Sheetname" "03_GNSS_Module"
+			(at 101.6 24.0534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_GNSS_Module.kicad_sch"
+			(at 101.6 71.0696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1PPS" output
+			(at 101.6 33.02 180)
+			(uuid "dea8e43e-a8a8-4887-913d-597563ab538a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3D_FIX" output
+			(at 101.6 35.56 180)
+			(uuid "3de2c690-b347-4386-9265-a707726a1ae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_RF" output
+			(at 125.73 33.02 0)
+			(uuid "2ff0dfa8-5927-413a-ad62-e0823407121b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANT_ON" output
+			(at 125.73 35.56 0)
+			(uuid "3f90a563-d10b-40e0-b50c-5c62d0890d23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GEOFENCE" output
+			(at 101.6 38.1 180)
+			(uuid "128cfd3d-114c-4cd7-a16f-ac6d8b81763d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 101.6 45.72 180)
+			(uuid "62a7846f-88d8-4635-8b35-9c17a1f5fcdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 101.6 48.26 180)
+			(uuid "9e3606b9-5565-48bd-9fcc-500cd0d39660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JAM_IND" output
+			(at 101.6 55.88 180)
+			(uuid "08658369-7ccc-443d-9830-439d450d68a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET_N" input
+			(at 101.6 43.18 180)
+			(uuid "63f8c69c-087f-4667-bdd4-4d0ab555a906")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_IN" input
+			(at 125.73 38.1 0)
+			(uuid "2181bcfd-5cc3-48bc-9e34-8fd37f4599ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" input
+			(at 101.6 50.8 180)
+			(uuid "87273859-f928-49c6-9592-60b29d78d28d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" output
+			(at 101.6 53.34 180)
+			(uuid "4888d85b-9f0f-4873-86fe-0bce67af80bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_GNSS" input
+			(at 101.6 63.5 180)
+			(uuid "d88afb73-884c-4aef-b736-7b5c83e75529")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_BCKP" input
+			(at 101.6 66.04 180)
+			(uuid "e542731a-ac5f-4ce2-8980-a5cb0b520dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Quectel_LC76G"
+				(path "/653008c8-3cd0-40bb-aae1-da11b34124c9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 74.93)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c0e7df2b-ba61-4a89-9376-fd6abf001530")
+		(property "Sheetname" "01_Power_Supply"
+			(at 35.56 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_Power_Supply.kicad_sch"
+			(at 35.56 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_EN_VCC" input
+			(at 35.56 78.74 180)
+			(uuid "29963bd2-d7aa-4380-9984-9fb0c5ce7872")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_GNSS" output
+			(at 66.04 77.47 0)
+			(uuid "1147e7f3-46ed-47cb-b510-5007b4a1c426")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_BCKP" output
+			(at 66.04 82.55 0)
+			(uuid "014fc13f-1f76-4126-8f81-08bb10adae0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_3.3" output
+			(at 66.04 87.63 0)
+			(uuid "d8473cc1-4027-4c18-97a4-315fe36aa0af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Quectel_LC76G"
+				(path "/653008c8-3cd0-40bb-aae1-da11b34124c9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 31.115)
+		(size 19.685 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ec20b18f-a2d1-4799-a464-612bb82ba6a9")
+		(property "Sheetname" "04_Passive_Antenna"
+			(at 139.7 30.4034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_Passive_Antenna.kicad_sch"
+			(at 139.7 40.5896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF_IN" output
+			(at 139.7 38.1 180)
+			(uuid "0d92f65a-5309-4fa2-9cee-499bb21ecff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_RF" input
+			(at 139.7 33.02 180)
+			(uuid "7bcb7f76-92bd-4420-814e-71ca883443c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANT_ON" input
+			(at 139.7 35.56 180)
+			(uuid "5501930a-224e-4c38-9e2c-38d591ab64c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Quectel_LC76G"
+				(path "/653008c8-3cd0-40bb-aae1-da11b34124c9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 30.48)
+		(size 30.48 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "efaaa4be-fb96-411f-acee-d0e0a85aaafd")
+		(property "Sheetname" "02_MCU_Interface"
+			(at 35.56 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_MCU_Interface.kicad_sch"
+			(at 35.56 59.6396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1PPS" input
+			(at 66.04 33.02 0)
+			(uuid "980661c2-c6f7-4e21-9a08-18508bea041a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3D_FIX" input
+			(at 66.04 35.56 0)
+			(uuid "7aa271c7-1a0f-4dcb-ac73-81d3cd1976b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GEOFENCE" input
+			(at 66.04 38.1 0)
+			(uuid "5354c483-48b5-448b-bfbb-b5de9849ab2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET_N" output
+			(at 66.04 43.18 0)
+			(uuid "631f2b6c-2d80-410f-92cb-4800ae141be2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 66.04 45.72 0)
+			(uuid "7c5620dd-398f-4147-9a5f-cf0ec615a2f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 66.04 48.26 0)
+			(uuid "5580cc23-b629-4818-a549-0c98de1d1a24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JAM_IND" input
+			(at 66.04 55.88 0)
+			(uuid "9a61d012-1554-4add-8c5e-bba7e6099a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_EN_VCC" output
+			(at 35.56 44.45 180)
+			(uuid "a4dcc21e-2fec-46a4-903d-ab0012a1d3eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" input
+			(at 66.04 53.34 0)
+			(uuid "4fb940e2-8233-4b7b-a4ba-fc83c7cbf801")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" output
+			(at 66.04 50.8 0)
+			(uuid "c09fed01-9133-4971-b038-2400ec1ac32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_GNSS" input
+			(at 35.56 36.83 180)
+			(uuid "265c45e0-99b6-47eb-ba99-64b36e8804b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Quectel_LC76G"
+				(path "/653008c8-3cd0-40bb-aae1-da11b34124c9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
