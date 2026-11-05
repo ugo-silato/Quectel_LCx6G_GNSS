@@ -1,0 +1,13 @@
+{
+  "name": "Quectel_LCx6G_GNSS",
+  "version": "1.0.0",
+  "description": "Driver for Quectel LC26G, LC26G-T, LC76G and LC86G GNSS modules: NMEA, PAIR/PQTM commands, UART or I2C.",
+  "keywords": "gnss, gps, quectel, lc76g, lc26g, lc86g, nmea",
+  "repository": { "type": "git", "url": "https://github.com/ugo-silato/Quectel_LCx6G_GNSS.git" },
+  "authors": [{ "name": "Ugo Silato", "email": "ugo.silato@hotmail.com", "maintainer": true }],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["atmelavr", "renesas-ra"],
+  "headers": "Quectel_LC76G.h",
+  "export": { "exclude": ["hardware", ".github"] }
+}
